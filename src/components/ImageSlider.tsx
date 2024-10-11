@@ -6,10 +6,10 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const images = [
-    '/src/image1.jpg',
-    '/src/image2.jpg',
-    '/src/image3.jpg',
-    '/src/image4.jpg'
+    '/src/components/Images/image1.jpg',
+    '/src/components/Images/image2.jpg',
+    '/src/components/Images/image3.jpg',
+    '/src/components/Images/image4.jpg'
 ];
 
 const ImageSlider: React.FC = () => {
