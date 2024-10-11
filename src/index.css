@@ -1,0 +1,12 @@
+@import "../node_modules/slick-carousel/slick/slick.css";
+@import "../node_modules/slick-carousel/slick/slick-theme.css";
+
+
+/* index.css or tailwind.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
