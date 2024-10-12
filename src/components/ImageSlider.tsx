@@ -1,15 +1,19 @@
 import React from 'react';
 import Slider from 'react-slick';
+import image1 from '/src/components/Images/image1.jpg';
+import image2 from '/src/components/Images/image2.jpg';
+import image3 from '/src/components/Images/image3.jpg';
+import image4 from '/src/components/Images/image4.jpg';
 
 // Import slick-carousel CSS files
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const images = [
-    '/src/components/Images/image1.jpg',
-    '/src/components/Images/image2.jpg',
-    '/src/components/Images/image3.jpg',
-    '/src/components/Images/image4.jpg'
+    image1,
+    image2,
+    image3,
+    image4
 ];
 
 const ImageSlider: React.FC = () => {
